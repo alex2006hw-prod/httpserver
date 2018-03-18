@@ -1,0 +1,1 @@
+docker run -d -p 8080:8043 -v ./dist:/srv/http --name httpserver alex2006hw/httpserver:1.0.0
